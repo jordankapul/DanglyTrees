@@ -104,8 +104,7 @@ class DanglyTree {
             }
         }
 
-        // If we get to this point, the node we're looking for wasn't
-        // in any subtree under currentNode, so return null (no node was found)
+        // At this point, either we have found the node or we return null
         return nodeFound;
     }
 
